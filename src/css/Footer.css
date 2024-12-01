@@ -1,0 +1,35 @@
+footer {
+    margin-top: 7rem;
+    padding-top: 7rem;
+    background-color: #132743;
+}
+
+.footer-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.footer-categories li a {
+    font-size: 1.2rem;
+    background: #407088;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.7rem;
+    transition: all 0.30s ease-in-out;
+}
+
+
+.footer-categories li a:hover {
+    background: #ffb5b5;
+    color: #132743;
+}
+
+.copyright {
+    color: gray;
+    text-align: center;
+    border-top: 1px solid rgb(250, 243, 248);
+    padding: 1rem 0;
+}

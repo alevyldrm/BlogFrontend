@@ -1,0 +1,24 @@
+.error {
+    display: flex;
+    padding-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.go-home-btn {
+    background-color: #407088;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    transition: all 0.30s ease-in-out;
+}
+
+.go-home-btn:hover {
+    color: #132743;
+    background-color: #ffb5b5;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+}

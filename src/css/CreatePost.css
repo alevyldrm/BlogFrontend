@@ -1,0 +1,26 @@
+.ql-editor {
+    overflow: scroll;
+    background: white;
+    height: 10rem !important;
+}
+
+.editPost-btn {
+    background-color: #407088;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    transition: all 0.30s ease-in-out;
+    color: white;
+}
+
+.editPost-btn:hover {
+    color: #132743;
+    background-color: #ffb5b5;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+}
+
+.createPost-btn {
+    color: white;
+}

@@ -1,0 +1,68 @@
+.dashboasrd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.dashboard-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+    padding: 0.7rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard-post-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard-post-image {
+    width: 5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.btn-dashboard {
+    margin-left: 1rem;
+}
+
+.view {
+    background-color: rgb(171, 171, 171);
+}
+
+.view:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.edit:hover {
+    background-color: #ffb5b5;
+    color: #132743;
+}
+
+.delete {
+    background-color: #ffb5b5;
+    color: #132743;
+}
+
+.delete:hover {
+    background-color: #407088;
+    color: #fff;
+}
+
+.dashboard-post-action {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+
+    .dashboard-post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
