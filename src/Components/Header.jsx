@@ -19,7 +19,7 @@ function Header() {
         <nav>
             <div className='container nav-container'>
                 <Link className='logo' to={'/'}>
-                    <h3>BLOOG</h3>
+                    <h3>BLOG</h3>
                 </Link>
                 {isNawShow && <ul className='nav-menu'>
                     <li><Link onClick={closeNavHandle} to={'/profile/id'}>My Profile</Link></li>
