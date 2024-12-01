@@ -9,7 +9,7 @@ function UserProfile() {
         <section className='profile'>
 
             <div className="container profile-container">
-                <Link to={'/myposts/id'}>My Posts</Link>
+                <Link to={'/myposts/id'}>Go My Posts</Link>
 
                 <div className="profile-details">
                     <div className="profile wrapper">
