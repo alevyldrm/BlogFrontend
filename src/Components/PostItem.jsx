@@ -4,7 +4,6 @@ import PostAuthor from './PostAuthor'
 import { Link } from 'react-router-dom'
 import '../css/HomePage.css'
 
-
 export function PostItem({ post, onDelete }) {
     const { id, Image, title, category, authorId, des } = post
 
@@ -15,7 +14,6 @@ export function PostItem({ post, onDelete }) {
             <Link to={`posts/${id}`}>
                 <div className='post-image'>
                     <img src={Image} alt="" />
-
                 </div>
             </Link>
             <div className='post-content'>
@@ -33,7 +31,5 @@ export function PostItem({ post, onDelete }) {
                 </div>
             </div>
         </article >
-    )
-}
-
+    )}
 export default PostItem
