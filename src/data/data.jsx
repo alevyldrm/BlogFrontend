@@ -1,3 +1,41 @@
+
+// Category Post
+export const CategoryPosts = [
+    {
+        id: 1,
+        Image: blogImage1,
+        category: 'Education',
+        authorId: 2,
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed asperiores autem officia maiores sit adipisci blanditiis ex magni quas. Id accusantium corporis qui unde.'
+    },
+    {
+        id: 2,
+        Image: blogImage2,
+        category: 'Education',
+        authorId: 3,
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed asperiores autem officia maiores sit adipisci blanditiis ex magni quas. Id accusantium corporis qui unde.'
+    },
+    {
+        id: 3,
+        Image: blogImage3,
+        category: 'Education',
+        authorId: 3,
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed asperiores autem officia maiores sit adipisci blanditiis ex magni quas. Id accusantium corporis qui unde.'
+    },
+    {
+        id: 4,
+        Image: blogImage4,
+        category: 'Education',
+        authorId: 4,
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed asperiores autem officia maiores sit adipisci blanditiis ex magni quas. Id accusantium corporis qui unde.'
+    }
+]
+
+
 //Head Post
 import blogImage1 from '../images/i1.jpeg'
 
@@ -20,6 +58,8 @@ import blogImage3 from '../images/i3.jpeg'
 import blogImage4 from '../images/i4.jpeg'
 import blogImage5 from '../images/i5.jpeg'
 import blogImage6 from '../images/i6.jpeg'
+
+
 
 
 
