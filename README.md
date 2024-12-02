@@ -54,7 +54,7 @@
 ```bash
   npm start
 ```
-##### This command starts a local development server, usually running the project on   [http://localhost:3000](http://localhost:3000) You can open this address in your browser to view your application.
+##### This command starts a local development server, usually running the project on   [http://localhost:5173](http://localhost:5173) You can open this address in your browser to view your application.
 
 ### 5. Building for Production
    
