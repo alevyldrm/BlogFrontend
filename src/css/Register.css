@@ -42,13 +42,16 @@ textarea {
     background-color: #407088;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    color: white;
+    color: #132743;
     border-radius: 0.7rem;
     margin-top: 1rem;
     transition: all 0.30s ease-in-out;
+    background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
 }
 
 .register-btn:hover {
+    transform: scale(1.1);
     color: #132743;
     background-color: #ffb5b5;
     cursor: pointer;
