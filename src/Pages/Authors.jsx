@@ -17,7 +17,7 @@ function Authors() {
                             </div>
                             <div className="author-info">
                                 <h4>{author.name}</h4>
-                                <p>{author.posts}</p>
+                                <p> Posts: {author.posts}</p>
                             </div>
                         </Link>
                     })
@@ -29,3 +29,4 @@ function Authors() {
 
 
 export default Authors
+
