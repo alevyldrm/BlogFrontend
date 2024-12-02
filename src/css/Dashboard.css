@@ -32,26 +32,39 @@
 }
 
 .view {
-    background-color: rgb(171, 171, 171);
+    color: #132743;
+    background-image: linear-gradient(to right, #fcd2d2, #fcd2d2);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
 
+
 .view:hover {
-    background-color: rgb(29, 29, 29);
+    transform: scale(1.1);
+
+}
+
+.edit {
+    color: #fff;
+    background-image: linear-gradient(to right, #132743, #132743);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
 
 .edit:hover {
-    background-color: #ffb5b5;
-    color: #132743;
+    transform: scale(1.1);
+    background-color: #407088;
+    color: #fff;
 }
 
 .delete {
-    background-color: #ffb5b5;
     color: #132743;
+    background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
 
+
 .delete:hover {
-    background-color: #407088;
-    color: #fff;
+    transform: scale(1.1);
+
 }
 
 .dashboard-post-action {
