@@ -4,7 +4,13 @@
     color: #407088;
     font-size: 2rem;
     font-weight: 500;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    opacity: 60%;
     margin: 1rem auto;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
 
 .profile-container a:hover {
