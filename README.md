@@ -52,7 +52,7 @@
 ##### Once the dependencies are installed, you can start the project by running:
 
 ```bash
-  npm start
+  npm run dev
 ```
 ##### This command starts a local development server, usually running the project on   [http://localhost:5173](http://localhost:5173) You can open this address in your browser to view your application.
 
