@@ -93,12 +93,13 @@
 
 
 .post-category {
-    color: rgb(255, 255, 255);
     font-size: 1rem;
-    background: #407088;
     padding: 0.4rem 0.8rem;
     border-radius: 0.7rem;
     transition: all 0.30s ease-in-out;
+    color: #132743;
+    background-image: linear-gradient(to right, #c9c9ca, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
 }
 
 
@@ -109,12 +110,15 @@
     background-color: #ffb5b5;
     color: #132743;
     font-weight: 200;
-
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
 }
 
 .post-delete-btn:hover {
     transform: scale(1.1);
+    background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
+
 
 .post-delete-btn:active {
     transform: scale(0.9);
