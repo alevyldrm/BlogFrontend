@@ -46,7 +46,7 @@
 .edit {
     color: #fff;
     background-image: linear-gradient(to right, #132743, #132743);
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
 }
 
 .edit:hover {
@@ -58,7 +58,7 @@
 .delete {
     color: #132743;
     background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
 }
 
 
